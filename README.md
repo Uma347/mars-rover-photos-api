@@ -3,7 +3,7 @@ Este es un proyecto de ejemplo utilizando Flask para crear una aplicación web q
 
 ## Requisitos
 
-Antes de ejecutar esta aplicación, asegúrate de tener instalado Python y pip en tu sistema. También, se recomienda crear y activar un entorno virtual para el proyecto. Si usas Linux debes tener python3-venv instalado.
+Antes de ejecutar esta aplicación, asegúrate de tener instalado Python y pip en tu sistema. También, se recomienda crear y activar un entorno virtual para el proyecto. Si usas Linux debes tener python-venv o python3-venv instalado.
 
 ```bash
 sudo apt-get install python3-venv
@@ -21,7 +21,7 @@ cd mars-rover-photos-api
 ```
 3. Crea un nuevo entorno virtual `env` en el directorio
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 4. Activa en nuevo entorno en Windows 
 ```bash
